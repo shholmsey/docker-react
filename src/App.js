@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         moby latest
+         moby latest change
         </p>
         <a
           className="App-link"
