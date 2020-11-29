@@ -11,6 +11,8 @@ RUN npm run build
 
 # use JUST the build result above and setup ngnix image
 FROM nginx
+# port is necessary for ElasticBeanstalk but not for local machine
+EXPOSE 80
 # use the builder phase reference defined above
 # according to the ngnix docs we need to copy our source code to 
 # /usr/share/nginx/html
